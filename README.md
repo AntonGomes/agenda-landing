@@ -51,37 +51,43 @@ This creates a `dist` folder with the production build.
 npm run preview
 ```
 
+## 🚀 Live Demo
+
+**GitHub Repository**: https://github.com/AntonGomes/agenda-landing
+
 ## Deployment to Vercel
 
-### Option 1: Vercel CLI
+### Quick Deploy (Recommended)
 
-1. Install Vercel CLI globally:
-```bash
-npm install -g vercel
-```
+Click this button to deploy directly to Vercel:
 
-2. Login to Vercel:
-```bash
-vercel login
-```
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AntonGomes/agenda-landing)
 
-3. Deploy:
-```bash
-vercel --prod
-```
+### Manual Deployment
 
-### Option 2: Vercel Dashboard
-
-1. Push your code to GitHub
-2. Visit [vercel.com](https://vercel.com)
-3. Import your GitHub repository
+1. Visit [vercel.com](https://vercel.com) and sign up/login
+2. Click "New Project"
+3. Import from GitHub: `https://github.com/AntonGomes/agenda-landing`
 4. Vercel will automatically detect the React app and deploy it
+5. Your site will be live at a custom Vercel URL
 
-### Option 3: Deploy from GitHub
+### Local Development
 
-1. Connect your GitHub repository to Vercel
-2. Set up automatic deployments on push to main branch
-3. Every commit to main will trigger a new deployment
+1. Clone the repository:
+```bash
+git clone https://github.com/AntonGomes/agenda-landing.git
+cd agenda-landing
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
 
 ## Project Structure
 
